@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+            <link rel="stylesheet" href="/static/css/main.css">
+        <meta charset="utf-8" />
+        <script src="https://unpkg.com/lunr/lunr.js"></script>
+        <script src="https://unpkg.com/lunr-languages/lunr.stemmer.support.js"></script>
+        <script src="https://unpkg.com/lunr-languages/lunr.fr.js"></script>
+    </head>
+    <body>
+<header>
+    <div class="hero">cours-ed-num2026</div>
+    <nav>
+        <ul>
+
+                <li><a href="/"><img src="/static/images/picol/home.svg"/></a></li>
+
+                    <li><a href="/open-source">Open source</a></li>
+                    <li><a href="/minimal-computing">Minimal Computing</a></li>
+                    <li><a href="/editorialisation">Éditorialisation</a></li>
+
+                <li><a href="/recherche"><img src="/static/images/picol/search.svg"/></a></li>
+        </ul>
+    </nav>
+</header>
+
+        <main>
+            <h1>Recherche</h1>
+            <input type="text" id="searchBox" placeholder="Rechercher un terme" />
+            <div id="results"/>
+        </main>
+<footer class="footer">
+    <section class="legal">
+        <ul>
+            <li>Propulsé avec <a href="https://gitlab.huma-num.fr/ceen/towsty" target="_blank">Towsty</a>, distillé en Haute-Normandie 🐄</li>
+            <li><a class="contact" href="mailto:ceen.team@listes.univ-rouen.fr">contact</a></li>
+            <li>CC 0</li>
+            <li>Blog généré à partir des synthèses de cours rédigées par la promo de L3 Lettres</li>
+            <li>2026</li>
+        </ul>
+    </section>
+</footer>
+<!-- no script -->
+        <script>
+            // for lunrconf
+            window.BASEURL = "";
+        </script>
+            <script src="/static/js/lunrconf.js"></script>
+
+    </body>
+</html>
