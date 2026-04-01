@@ -28,11 +28,6 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload le dossier build
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./build
-
       - name: Deploy sur GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
