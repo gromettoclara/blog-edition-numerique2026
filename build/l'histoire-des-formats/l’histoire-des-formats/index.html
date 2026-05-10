@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cours-ed-num2026</title>
+    <base href="https://gromettoclara.github.io/blog-edition-numerique2026/build/">
+    <link rel="stylesheet" href="static/css/main.css">
+    <meta charset="utf-8" />
+</head>
+
+    <body id="corps">
+<header>
+    <div class="hero">cours-ed-num2026</div>
+    <nav>
+        <ul>
+
+                <li><a href=""><img src="static/images/picol/home.svg"/></a></li>
+
+                    <li><a href="l&#37;2527histoire-des-formats">L&#39;histoire des formats</a></li>
+                    <li><a href="editorialisation">Éditorialisation</a></li>
+                    <li><a href="open-source">Open source</a></li>
+                    <li><a href="minimal-computing">Minimal Computing</a></li>
+
+                <li><a href="recherche"><img src="static/images/picol/search.svg"/></a></li>
+        </ul>
+    </nav>
+</header>
+
+        <main>
+            <section class="article">
+                <h1>L’Histoire des formats</h1>
+                <h1 id="histoire-des-formats-documentaires-et-numériques">Histoire des
+formats documentaires et numériques</h1>
+<h2 id="introduction">Introduction</h2>
+<p>L’histoire des formats documentaires s’inscrit dans une réflexion
+plus large sur la manière dont les sociétés humaines produisent,
+organisent et transmettent l’information. Depuis les premières
+inscriptions sur des supports matériels comme la pierre ou l’argile
+jusqu’aux formats numériques contemporains, le texte n’a cessé d’évoluer
+tout en conservant certaines caractéristiques fondamentales. Cette
+continuité est aujourd’hui au cœur des réflexions menées dans le domaine
+des humanités numériques, notamment à travers des standards comme la
+Text Encoding Initiative et le Extensible Markup Language. Comme le
+soulignent les Guidelines de la TEI, celle-ci « <i>met l’accent sur ce
+qui est partagé par tous les types de documents</i> », qu’ils soient
+manuscrits, imprimés ou numériques.<span class="citation"
+data-cites="burnard2015"><a href="#fn1" class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a></span> Ces outils ne sont donc pas
+de simples technologies : ils incarnent une manière spécifique de
+concevoir le texte, sa structure et ses usages.</p>
+<p>Dans ce contexte, il est légitime de se demander dans quelle mesure
+l’évolution des formats documentaires, du support matériel aux standards
+numériques comme la TEI et XML, transforme notre manière de structurer,
+d’interpréter et de transmettre les textes, tout en soulevant des enjeux
+techniques, juridiques et culturels.</p>
+<h2 id="définition-des-formats-documentaires-et-numériques">Définition
+des formats documentaires et numériques</h2>
+<p>Un format documentaire peut être défini comme un ensemble de règles
+permettant d’organiser une information afin de la rendre lisible,
+compréhensible et exploitable. Il concerne la structure interne du
+document : la manière dont les idées sont hiérarchisées, découpées et
+articulées. À l’inverse, un format numérique désigne la manière dont
+cette information est encodée sous forme informatique pour être stockée,
+traitée et échangée par des machines.</p>
+<p>Cette distinction est essentielle pour comprendre l’évolution des
+formats. En effet, un même contenu peut exister sous différents formats
+numériques tout en conservant la même organisation documentaire. Par
+exemple, un article scientifique peut être structuré de manière
+identique tout en étant enregistré en PDF, en HTML ou en XML. Cela
+montre que le format documentaire relève d’une logique intellectuelle et
+éditoriale, tandis que le format numérique relève d’une logique
+technique et informatique.</p>
+<h2 id="évolution-historique-des-formats">Évolution historique des
+formats</h2>
+<p>Les formats documentaires apparaissent dès les premières formes
+d’écriture. Les tablettes d’argile mésopotamiennes ou les papyrus
+égyptiens témoignent déjà d’une volonté d’organiser l’information,
+notamment à travers des colonnes ou des séparations visuelles. Au Moyen
+Âge, le codex marque une avancée importante : il introduit une
+structuration plus complexe du texte, avec des chapitres, des titres,
+des annotations marginales et une mise en page élaborée.</p>
+<p>L’invention de l’imprimerie au XVe siècle constitue une étape majeure
+dans l’histoire des formats. Elle permet une reproduction à grande
+échelle des textes et favorise la standardisation des formes. Les
+conventions typographiques se stabilisent et participent à la diffusion
+du savoir.</p>
+<p>Cependant, la véritable rupture intervient avec l’informatique. Le
+texte devient une donnée abstraite, indépendante de son support
+matériel. Il peut être copié, modifié et diffusé facilement. Comme le
+souligne la TEI, cette évolution reste toutefois liée au passé, car le
+texte numérique est « <i> conditionné par ce qu’il a été dans le passé,
+sans compromettre ce qu’il peut devenir dans le futur</i> ».<span
+class="citation" data-cites="burnard2015"><a href="#fn2"
+class="footnote-ref" id="fnref2"
+role="doc-noteref"><sup>2</sup></a></span></p>
+<h2 id="le-rôle-du-balisage">Le rôle du balisage</h2>
+<p>Le balisage constitue une étape essentielle dans cette
+transformation. Il consiste à insérer dans un texte des annotations
+permettant d’en expliciter la structure ou le sens. Contrairement aux
+documents imprimés, où la structure est implicite, les documents
+numériques balisés rendent visibles les différentes composantes du
+texte.</p>
+<p>Ainsi, un paragraphe, un titre ou un nom propre peuvent être
+identifiés par des balises spécifiques. Cette explicitation est
+essentielle pour le traitement automatisé des données. Elle permet
+notamment de rechercher, trier ou analyser des informations de manière
+efficace. Comme l’indique la TEI, « <i> on introduit un balisage dans un
+document pour l’étiqueter et l’organiser en vue d’un traitement
+automatisé</i> ».<span class="citation" data-cites="burnard2015"><a
+href="#fn3" class="footnote-ref" id="fnref3"
+role="doc-noteref"><sup>3</sup></a></span></p>
+<h2 id="létape-intermédiaire-tex-et-la-publication-assistée">L’étape
+intermédiaire : TeX et la publication assistée</h2>
+<p>Entre l’imprimé et les formats numériques actuels, des systèmes
+intermédiaires ont joué un rôle déterminant. Parmi eux, TeX occupe une
+place centrale. Développé à la fin des années 1970, ce système de
+composition permet de produire des documents de haute qualité
+typographique.</p>
+<p>Comme le montrent,<span class="citation" data-cites="beeton2018"><a
+href="#fn4" class="footnote-ref" id="fnref4"
+role="doc-noteref"><sup>4</sup></a></span> TeX introduit une distinction
+fondamentale entre le contenu et la mise en forme. Au lieu de manipuler
+directement l’apparence visuelle du texte, l’utilisateur décrit sa
+structure à l’aide d’un langage spécifique. Cette approche marque une
+rupture avec les pratiques traditionnelles de l’édition.</p>
+<p>TeX préfigure ainsi les principes qui seront développés dans XML et
+la TEI. Il met en place une logique de structuration formelle du texte
+et contribue à la standardisation des documents numériques. De plus, il
+garantit une grande portabilité des documents, qui peuvent être
+reproduits à l’identique sur différents systèmes.</p>
+<h2 id="xml-un-langage-structurant">XML : un langage structurant</h2>
+<p>Le XML, développé en 1998, s’inscrit dans cette continuité. Il permet
+de représenter des données structurées sous forme de texte balisé.
+Chaque élément est encadré par des balises qui en définissent la nature
+et la fonction.</p>
+<p>Comme le rappelle la TEI, XML « <i> offre une manière simple de
+représenter des données structurées comme un flux linéaire de
+caractères</i> ».<span class="citation" data-cites="burnard2015"><a
+href="#fn5" class="footnote-ref" id="fnref5"
+role="doc-noteref"><sup>5</sup></a></span> Il présente l’avantage d’être
+à la fois lisible par les humains et interprétable par les machines.</p>
+<p>Cependant, sa grande flexibilité peut entraîner une diversité de
+pratiques. C’est pourquoi il est souvent associé à des schémas et à des
+standards qui encadrent son utilisation.</p>
+<h2 id="la-tei-un-cadre-conceptuel">La TEI : un cadre conceptuel</h2>
+<p>La TEI constitue l’un de ces standards. Elle propose un ensemble
+structuré de balises permettant d’encoder des textes de manière
+cohérente. Elle ne se limite pas à une norme technique, mais constitue
+un véritable cadre conceptuel.</p>
+<p>Elle formalise des notions textuelles largement partagées et fournit
+des définitions précises. Elle peut ainsi être décrite comme « <i> une
+encyclopédie de notions textuelles admises par le plus grand nombre</i>
+».<span class="citation" data-cites="burnard2015"><a href="#fn6"
+class="footnote-ref" id="fnref6"
+role="doc-noteref"><sup>6</sup></a></span></p>
+<p>L’article du LARHRA souligne que la TEI est utilisée pour « <i> les
+grandes possibilités de balisage structurel et sémantique qu’elle
+offre</i> ».<span class="citation" data-cites="chadier2023"><a
+href="#fn7" class="footnote-ref" id="fnref7"
+role="doc-noteref"><sup>7</sup></a></span> Elle permet notamment de
+structurer les documents en distinguant les métadonnées et le contenu,
+ce qui facilite leur analyse et leur diffusion.</p>
+<h2 id="les-enjeux-des-formats-documentaires">Les enjeux des formats
+documentaires</h2>
+<ol type="1">
+<li><p><b><u>Enjeux techniques :</u></b> L’interopérabilité constitue un
+enjeu central. Les documents doivent pouvoir être échangés entre
+différents systèmes sans perte d’information. Les formats ouverts comme
+XML et la TEI favorisent cette compatibilité.</p></li>
+<li><p><b><u>Enjeux juridiques :</u></b> Les formats numériques
+facilitent la reproduction et la diffusion des textes. Cela pose des
+questions importantes en matière de propriété intellectuelle. Les droits
+d’auteur peuvent être mis en tension avec la circulation des
+connaissances.</p></li>
+<li><p><b><u>Enjeux politiques : </u></b> Les formats ne sont pas
+neutres. Le choix entre formats ouverts et propriétaires peut influencer
+l’accès à l’information. Les formats ouverts favorisent la diffusion du
+savoir, tandis que les formats fermés peuvent créer des dépendances
+technologiques.</p></li>
+<li><p><b><u>Enjeux culturels : </u></b> Les formats jouent un rôle
+essentiel dans la transmission du patrimoine. La TEI permet de « <i>
+modéliser la structure d’un texte tel qu’il a été conçu</i> »,<span
+class="citation" data-cites="chadier2023"><a href="#fn8"
+class="footnote-ref" id="fnref8"
+role="doc-noteref"><sup>8</sup></a></span> ce qui est particulièrement
+important pour les historiens.</p></li>
+<li><p><b><u>Enjeux scientifiques : </u></b> Les formats structurés
+permettent de nouvelles formes d’analyse. Les textes peuvent être
+explorés automatiquement, ce qui ouvre des perspectives inédites dans
+les sciences humaines.</p></li>
+</ol>
+<h2 id="exemple-lédition-numérique-de-manuscrits">Exemple : l’édition
+numérique de manuscrits</h2>
+<p>L’édition numérique de manuscrits anciens constitue un exemple
+concret de ces enjeux. Ces documents sont souvent complexes, avec des
+variantes textuelles, des annotations marginales et une organisation non
+linéaire.</p>
+<p>Grâce à la TEI, il est possible de représenter ces éléments avec
+précision. Chaque partie du texte peut être balisée et analysée. Une
+fois encodé en XML, le document peut être transformé pour différents
+usages : affichage, impression ou analyse.</p>
+<p>Cette flexibilité illustre les avantages des formats structurés, qui
+permettent de concilier conservation du patrimoine et innovation
+scientifique.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>L’histoire des formats documentaires révèle une évolution vers une
+abstraction croissante du texte. Cette transformation ne constitue pas
+une rupture, mais une continuité dans laquelle les formes anciennes
+influencent les formats contemporains.</p>
+<p>Ainsi, l’évolution des formats documentaires transforme profondément
+notre manière de structurer, d’interpréter et de transmettre les textes.
+Elle ouvre de nouvelles possibilités tout en soulevant des enjeux
+techniques, juridiques, politiques et culturels majeurs.</p>
+<p>Les formats apparaissent donc comme des outils essentiels, mais aussi
+comme des constructions sociales qui participent à la production et à la
+diffusion du savoir.</p>
+<h1 class="unnumbered" id="bibliographie">Bibliographie</h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+data-entry-spacing="1" role="list">
+<div id="ref-beeton2018" class="csl-entry" role="listitem">
+<span class="smallcaps">Beeton Berry et Walden</span>, <span>« TEX: A
+Branch in Desktop Publishing Evolution, Part 1. »</span>, <em>IEEE
+Annals of the History of Computing</em>, vol. 40.3, 2018, p. 78-93 (en
+ligne : <a
+href="https://www.semanticscholar.org/paper/TeX%3A-A-Branch-of-Desktop-Publishing%2C-Part-1-Beeton-Berry/15f777d172197fe681cff933bddeab667a6a17a7$0">https://www.semanticscholar.org/paper/TeX%3A-A-Branch-of-Desktop-Publishing%2C-Part-1-Beeton-Berry/15f777d172197fe681cff933bddeab667a6a17a7$0</a>).
+</div>
+<div id="ref-burnard2015" class="csl-entry" role="listitem">
+<span class="smallcaps">Burnard et Lou</span>, <span>« Qu’est-ce que la
+Text Encoding Initiative ? Encyclopédie numérique. »</span>,
+<em>OpenEdition Press</em>, 2015 (en ligne : <a
+href="https://doi.org/10.4000/books.oep.1298">https://doi.org/10.4000/books.oep.1298</a> ;
+consulté le 22 octobre 2019).
+</div>
+<div id="ref-chadier2023" class="csl-entry" role="listitem">
+<span class="smallcaps">Chadier</span> Christine, <span>« TEI : Text
+Encoding Initiative »</span>, <em>Les Carnets du LARHRA</em>, 2023 (en
+ligne : <a
+href="https://publications-prairial.fr/larhra/index.php?id=942$0">https://publications-prairial.fr/larhra/index.php?id=942$0</a>).
+</div>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p><span class="smallcaps">Burnard et Lou</span>,
+<span>« Qu’est-ce que la Text Encoding Initiative ? Encyclopédie
+numérique. »</span>, <em>OpenEdition Press</em>, 2015 (en ligne : <a
+href="https://doi.org/10.4000/books.oep.1298">https://doi.org/10.4000/books.oep.1298</a> ;
+consulté le 22 octobre 2019)<a href="#fnref1" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><em>Id.</em><a href="#fnref2" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p><em>Id.</em><a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p><span class="smallcaps">Beeton Berry et Walden</span>,
+<span>« TEX: A Branch in Desktop Publishing Evolution, Part 1. »</span>,
+<em>IEEE Annals of the History of Computing</em>, vol. 40.3, 2018,
+p. 78-93 (en ligne : <a
+href="https://www.semanticscholar.org/paper/TeX%3A-A-Branch-of-Desktop-Publishing%2C-Part-1-Beeton-Berry/15f777d172197fe681cff933bddeab667a6a17a7$0">https://www.semanticscholar.org/paper/TeX%3A-A-Branch-of-Desktop-Publishing%2C-Part-1-Beeton-Berry/15f777d172197fe681cff933bddeab667a6a17a7$0</a>)<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><span class="smallcaps">Burnard et Lou</span>,
+<span>« La TEI et le XML »</span>, 2015, <em>op. cit.</em><a
+href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><em>Id.</em><a href="#fnref6" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>C. <span class="smallcaps">Chadier</span>, <span>« TEI :
+Text Encoding Initiative »</span>, <em>Les Carnets du LARHRA</em>, 2023
+(en ligne : <a
+href="https://publications-prairial.fr/larhra/index.php?id=942$0">https://publications-prairial.fr/larhra/index.php?id=942$0</a>)<a
+href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p><em>Id.</em><a href="#fnref8" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+            </section>
+        </main>
+<footer class="footer">
+    <section class="legal">
+        <ul>
+            <li>Propulsé avec <a href="https://gitlab.huma-num.fr/ceen/towsty" target="_blank">Towsty</a>, distillé en Haute-Normandie 🐄</li>
+            <li><a class="contact" href="mailto:ceen.team@listes.univ-rouen.fr">contact</a></li>
+            <li>CC 0</li>
+            <li>Blog généré à partir des synthèses de cours rédigées par la promo de L3 Lettres</li>
+            <li>2026</li>
+        </ul>
+    </section>
+</footer>
+<!-- no script -->
+    </body>
+</html>
